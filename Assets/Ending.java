@@ -57,22 +57,22 @@ public class Ending extends Main {
         setNarratives("\n\n. ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives("\n\nIt's a beautiful Saturday morning. It felt like ages since you'd had that vivid dream about the town, yet it was as fresh in your memory as if it had happened just yesterday.\r\n");
         showNarratives();
@@ -155,22 +155,22 @@ public class Ending extends Main {
         setNarratives("\n\n. ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives("\n\nTime seemed to stand still, and as my senses gradually returned, I found myself in a sunlit world on a beautiful Saturday morning. The contrast to the bleakness of my previous experiences was overwhelming, yet it did nothing to alleviate the darkness that had taken root within me.\r\n");
         showNarratives();
@@ -237,22 +237,22 @@ public class Ending extends Main {
         setNarratives("\n\n. ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives("\n\nAs my senses gradually returned, I found myself in a dim world on a Saturday evening. The contrast to the bleakness of my previous experiences was overwhelming, but the isolation I had created for myself was palpable.\r\n");
         showNarratives();
@@ -319,22 +319,22 @@ public class Ending extends Main {
         setNarratives("\n\n. ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives("\n\nAs my senses gradually returned, I found myself in a sunny world on a Saturday morning. The contrast to the bleakness of my previous experiences was overwhelming, but the isolation I had created for myself was palpable.\r\n");
         showNarratives();
@@ -402,22 +402,22 @@ public class Ending extends Main {
         setNarratives("\n\n. ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives("\n\nReporter: Channel Fax News live here. Reporting in, it's been a month since a young teen named Alex Johanson went missing. There's still no news of their whereabouts but we did obtain some information that might lead to their discovery.\r\n");
         showNarratives();
@@ -474,22 +474,22 @@ public class Ending extends Main {
         setNarratives("\n\n. ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives("\n\nBREAKING NEWS:\r\n");
         showNarratives();
@@ -506,7 +506,7 @@ public class Ending extends Main {
         System.out.println();
         TimeUnit.SECONDS.sleep(2);
 
-        setNarratives("\n\n“If you've found this. Don't try and search for me, i'd like to take a hiatus indefinetely. Nobody could help me, not my doctor, even my backstabber best friend left me. So it's up for myself to continue forward, though i see myself hitting a dead end soon enough. But that is all, i'd like to thank my family for being there at least, sorry for the decision i took, goodbye.\r\n");
+        setNarratives("\n\n'If you've found this. Don't try and search for me, i'd like to take a hiatus indefinetely. Nobody could help me, not my doctor, even my backstabber best friend left me. So it's up for myself to continue forward, though i see myself hitting a dead end soon enough. But that is all, i'd like to thank my family for being there at least, sorry for the decision i took, goodbye.\r\n");
         showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
@@ -547,22 +547,22 @@ public class Ending extends Main {
         setNarratives("\n\n. ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives("\n\nReporter: Channel Fax News live here. Reporting in, it's been a month since a young teen named Alex Johanson went missing. There's still no news of their whereabouts but we did obtain some information that might lead to their discovery.\r\n");
         showNarratives();
@@ -572,9 +572,9 @@ public class Ending extends Main {
         setNarratives("\n\nReporter: We'll be reading out the note that's presumably left by the young teen.\r\n");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
-        setNarratives("\n\n“Hello, if you've found this. Don't search for me. I'm indefinitely on a hiatus and would like to be alone for a while. i'd like to say sorry to my family, my best friend, everybody. I'd still like to thank everyone for trying to help me, but it was a lost cause. Sorry i wasn't strong enough, goodbye.”\r\n");
+        setNarratives("\n\n''Hello, if you've found this. Don't search for me. I'm indefinitely on a hiatus and would like to be alone for a while. i'd like to say sorry to my family, my best friend, everybody. I'd still like to thank everyone for trying to help me, but it was a lost cause. Sorry i wasn't strong enough, goodbye.''\r\n");
         showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
@@ -609,22 +609,22 @@ public class Ending extends Main {
         setNarratives("\n\n. ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives(" . ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
         setNarratives("\n\nBREAKING NEWS:\r\n");
         showNarratives();

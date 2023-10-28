@@ -6,14 +6,18 @@ public abstract class Players {
     public String name;
     public Items item;
     public String choice;
+    final Scanner scanner = new Scanner(System.in); 
 
-    public void setChoices() {
-        try (Scanner scanner = new Scanner(System.in)) {
-            System.out.print("Your choice: ");
-            String choice = scanner.nextLine();
-            this.choice = choice;
-        }
+    public void skip() {
+        scanner.nextLine();
     }
+
+    public void setChoices() { 
+        System.out.print("Your choice: ");
+        String choice = scanner.nextLine();
+        this.choice = choice;
+    }
+
 
     public String getChoices() {
         return choice;
@@ -24,11 +28,9 @@ public abstract class Players {
     }
 
     public void setName() {
-        try (Scanner scanner = new Scanner(System.in)) {
-            System.out.print("Input Name: ");
-            String name = scanner.nextLine();
-            this.name = name;
-        }
+        System.out.print("Input Name: ");
+        String name = scanner.nextLine();
+        this.name = name;
     }
 
     public void setItem(Items givenItems) {
