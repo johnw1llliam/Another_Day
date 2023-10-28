@@ -61,9 +61,9 @@ public class Game {
         intro.showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
-        Scanner scanner = new Scanner(System.in);
+        final Scanner scanner = new Scanner(System.in);
         System.out.print("\n\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
 
         // Main1
@@ -95,6 +95,7 @@ public class Game {
 
         player.setName();
         System.out.println();
+
         main1.setNarratives("\n" + assassins.name + ": " + player.name + ", How can i help you?\r\n");
         main1.showNarratives();
         System.out.println();
@@ -158,7 +159,7 @@ public class Game {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
         System.out.print("\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
 
         main1.setNarratives("\n\n" + assassins.name + ": This is my beloved inn of course! Well, that is if you're asking about that haha! But i'm guessing i misunderstood sir so, this is the town of Seraphvale, we enjoy it here! even when there's trouble arise haha!\r\n");
@@ -177,7 +178,7 @@ public class Game {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
         System.out.print("\n\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
 
         main1.setNarratives("\n\n" + assassins.name + ": What do you mean? old school? that's a new word haha! It's what we wear all the time. Though, why is sir wearing such elegant clothes? Are you a noble?\r\n");
@@ -196,7 +197,7 @@ public class Game {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
         System.out.print("\n\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
 
         main1.setNarratives("\n\n" + assassins.name + ": Did you lose your way? Haha! How should i know sir? You're the one controlling your legs! haha!\r\n");
@@ -230,7 +231,7 @@ public class Game {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
         System.out.print("\n\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
 
         main1.setNarratives("\n\n" + assassins.name + ": Not sure, but it seem to be an outsider as well, never seen someone wearing something so shady before.\r\n");
@@ -264,7 +265,7 @@ public class Game {
         TimeUnit.SECONDS.sleep(1);
 
         System.out.print("\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
 
         main1.setNarratives("\n\n" + player.name + ": Well i'll go ahead and follow them.\r\n");
@@ -293,7 +294,7 @@ public class Game {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
         System.out.print("\n\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
 
         main1.setNarratives("\n\n" + assassins.name + ": Here you go, be sure to tell them thank you from me when you met them haha!\r\n");
@@ -327,7 +328,7 @@ public class Game {
         TimeUnit.SECONDS.sleep(1);
 
         System.out.print("\n\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
         
         // Main 2
@@ -368,7 +369,7 @@ public class Game {
         TimeUnit.SECONDS.sleep(1);
 
         System.out.print("\n\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
 
         main2.setNarratives("\n\n(But then you hear a scream in an alley, you were startled but see everyone minding their own business, not even a bit concerned about the horrifying scream you just heard)\r\n");
@@ -397,7 +398,7 @@ public class Game {
         TimeUnit.SECONDS.sleep(1);
 
         System.out.print("\n\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
 
         main2.setNarratives("\n\n(You try your best to not make noise and try to process what's happening as best as you can)\r\n");
@@ -523,7 +524,7 @@ public class Game {
                 TimeUnit.SECONDS.sleep(1);
                 
                 System.out.print("\n\nPress enter to continue...");
-                scanner.nextLine();
+                player.skip();
                 clear();
 
                 main2.setNarratives("\n\n" + doctor.name + ": It may have seemed so, yes, but I shall tell you. All is for research\r\n");
@@ -547,7 +548,7 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
                 System.out.print("\n\nPress enter to continue...");
-                scanner.nextLine();
+                player.skip();
                 clear();
 
                 main2.setNarratives("\n\n" + doctor.name + ": I am the cure. The person who shall cure the pestilence that has been plaguing this town. But it seems most people here don't want to be cured, seen by their unwillingness to even cooperate.\r\n");
@@ -570,7 +571,7 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
                 System.out.print("\n\nPress enter to continue...");
-                scanner.nextLine();
+                player.skip();
                 clear();
 
                 main2.setNarratives("\n\n" + doctor.name + ": There's a reason why I wear these clothing child, is to shield myself from the plague. Such a hard disease to cure would be detrimental if I were to be infected as well.\r\n");
@@ -639,7 +640,7 @@ public class Game {
                         player.removeItem();
 
                         System.out.print("\n\nPress enter to continue...");
-                        scanner.nextLine();
+                        player.skip();
                         clear();
                         break;
                     } else if (player.getChoices().equals("B")) {
@@ -704,7 +705,7 @@ public class Game {
                                 TimeUnit.SECONDS.sleep(1);
 
                                 System.out.print("\n\nPress enter to continue...");
-                                scanner.nextLine();
+                                player.skip();
                                 clear();
                                 break;
                             } else if (player.getChoices().equals("B")) {
@@ -745,7 +746,7 @@ public class Game {
                                 TimeUnit.SECONDS.sleep(1);
 
                                 System.out.print("\n\nPress enter to continue...");
-                                scanner.nextLine();
+                                player.skip();
                                 clear();
                                 
                                 player.removeItem();
@@ -765,7 +766,7 @@ public class Game {
                 TimeUnit.SECONDS.sleep(1);
 
                 System.out.print("\n\nPress enter to continue...");
-                scanner.nextLine();
+                player.skip();
                 clear();
                 
                 break;
@@ -805,7 +806,7 @@ public class Game {
         TimeUnit.SECONDS.sleep(1);
 
         System.out.print("\n\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
         
         try {
@@ -946,7 +947,7 @@ public class Game {
                     player.removeItem();
 
                     System.out.print("\n\nPress enter to continue...");
-                    scanner.nextLine();
+                    player.skip();
                     clear();
                     break;
                 } else if (player.getChoices().equals("B")) {
@@ -1042,7 +1043,7 @@ public class Game {
                             player.setItem(null);
 
                             System.out.print("\n\nPress enter to continue...");
-                            scanner.nextLine();
+                            player.skip();
                             clear();
                             break;
                         } else if (player.getChoices().equals("B")) {
@@ -1115,7 +1116,7 @@ public class Game {
                             player.setItem(null);
                             doctor.setStatus(false);
                             System.out.print("\n\nPress enter to continue...");
-                            scanner.nextLine();
+                            player.skip();
                             clear();
                             break;
                         }
@@ -1164,7 +1165,7 @@ public class Game {
         TimeUnit.SECONDS.sleep(1);
 
         System.out.print("\n\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
         
         // Mob Event
@@ -1322,7 +1323,7 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
 
-                mobEvent.setNarratives("\n\n" + mob.name + "1: \r\n");
+                mobEvent.setNarratives("\n\n" + mob.name + "1: Say, to make it up to ya. Let us be of help when you need one!\r\n");
                 mobEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1361,7 +1362,7 @@ public class Game {
         }
         
         System.out.print("\n\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
         
         // Assassin Event
@@ -1400,7 +1401,7 @@ public class Game {
         assassins.name = "Assassin";
 
         System.out.print("\n\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
 
         assassinEvent.setNarratives("\n\n"+assassins.name+"#1 : Assassin one reporting in!\r\n");
@@ -1459,7 +1460,7 @@ public class Game {
         choices.clear();
 
         System.out.print("\n\nPress enter to continue...");
-        scanner.nextLine();
+        player.skip();
         clear();
 
         assassinEvent.setNarratives("\n\n(Assassin#1 then pull off their mask, It's james. You can't believe it, someone you thought was your friend is now actively trying to kill you. But you noticed something..)\r\n");
@@ -1632,7 +1633,7 @@ public class Game {
                         TimeUnit.SECONDS.sleep(1);
 
                         System.out.print("\n\nPress enter to continue...");
-                        scanner.nextLine();
+                        player.skip();
                         clear();
 
                         assassinEvent.setNarratives("\n\n"+assassins.name+": #2! He's not the enemy! i was controlled!\r\n");
@@ -1693,9 +1694,9 @@ public class Game {
         System.out.println();
         TimeUnit.SECONDS.sleep(2);
 
-        ENDEvent.setNarratives(" . ");
-        ENDEvent.showNarratives();
-        System.out.println();
-        TimeUnit.SECONDS.sleep(2);
+        Ending ending = new Ending();
+        ending.getEnding(doctor, mob, assassins);
+
+        System.out.println("The End");
     }
 }
