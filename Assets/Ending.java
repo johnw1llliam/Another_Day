@@ -446,7 +446,7 @@ public class Ending extends Main {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        setNarratives("\n\nMob1: WHAT DID YOU DO TO THE CHILD?! YOU’LL PAY FOR THIS MONSTER!\r\n");
+        setNarratives("\n\nMob1: WHAT DID YOU DO TO THE CHILD?! YOU'LL PAY FOR THIS MONSTER!\r\n");
         showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
@@ -471,32 +471,42 @@ public class Ending extends Main {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        setNarratives("\n\n(Delay)..\r\n");
+        setNarratives("\n\n. ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(1);
+        TimeUnit.SECONDS.sleep(2);
+
+        setNarratives(" . ");
+        showNarratives();
+        System.out.println();
+        TimeUnit.SECONDS.sleep(2);
+
+        setNarratives(" . ");
+        showNarratives();
+        System.out.println();
+        TimeUnit.SECONDS.sleep(2);
+
+        setNarratives(" . ");
+        showNarratives();
+        System.out.println();
+        TimeUnit.SECONDS.sleep(2);
 
         setNarratives("\n\nBREAKING NEWS:\r\n");
         showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        setNarratives("\n\nReporter: Channel Fax News live here. Reporting in, it’s been a month since a young teen named Alex Johanson went missing. There’s still no news of their whereabouts but we did obtain some information that might lead to their discovery.\r\n");
+        setNarratives("\n\nReporter: Channel Fax News live here. Reporting in, it's been a month since a young teen named Alex Johanson went missing. There's still no news of their whereabouts but we did obtain some information that might lead to their discovery.\r\n");
         showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        setNarratives("\n\nReporter: We’ll be reading out the note that’s presumably left by the young teen. \r\n");
+        setNarratives("\n\nReporter: We'll be reading out the note that's presumably left by the young teen. \r\n");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(1);
+        TimeUnit.SECONDS.sleep(2);
 
-        setNarratives("\n\n(Delay)..\r\n");
-        showNarratives();
-        System.out.println();
-        TimeUnit.SECONDS.sleep(1);
-
-        setNarratives("\n\n“If you’ve found this. Don’t try and search for me, i’d like to take a hiatus indefinetely. Nobody could help me, not my doctor, even my backstabber best friend left me. So it’s up for myself to continue forward, though i see myself hitting a dead end soon enough. But that is all, i’d like to thank my family for being there at least, sorry for the decision i took, goodbye.\r\n");
+        setNarratives("\n\n“If you've found this. Don't try and search for me, i'd like to take a hiatus indefinetely. Nobody could help me, not my doctor, even my backstabber best friend left me. So it's up for myself to continue forward, though i see myself hitting a dead end soon enough. But that is all, i'd like to thank my family for being there at least, sorry for the decision i took, goodbye.\r\n");
         showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
@@ -559,17 +569,12 @@ public class Ending extends Main {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        setNarratives("\n\nReporter: We’ll be reading out the note that’s presumably left by the young teen.\r\n");
+        setNarratives("\n\nReporter: We'll be reading out the note that's presumably left by the young teen.\r\n");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(1);
+        TimeUnit.SECONDS.sleep(2);
 
-        setNarratives("\n\n(Delay)..\r\n");
-        showNarratives();
-        System.out.println();
-        TimeUnit.SECONDS.sleep(1);
-
-        setNarratives("\n\n“Hello, if you’ve found this. Don’t search for me. I’m indefinitely on a hiatus and would like to be alone for a while. i’d like to say sorry to my family, my best friend, everybody. I’d still like to thank everyone for trying to help me, but it was a lost cause. Sorry i wasn’t strong enough, goodbye.”\r\n");
+        setNarratives("\n\n“Hello, if you've found this. Don't search for me. I'm indefinitely on a hiatus and would like to be alone for a while. i'd like to say sorry to my family, my best friend, everybody. I'd still like to thank everyone for trying to help me, but it was a lost cause. Sorry i wasn't strong enough, goodbye.”\r\n");
         showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
@@ -586,7 +591,7 @@ public class Ending extends Main {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        setNarratives("\n\n(There’s nobody coming)\r\n");
+        setNarratives("\n\n(There's nobody coming)\r\n");
         showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
@@ -596,15 +601,30 @@ public class Ending extends Main {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        setNarratives("\n\nMorbusrex then grabs you and drain your life force. With nobody there to help you, you can’t do anything but endure the intense pain it causes until you black out.\r\n");
+        setNarratives("\n\nMorbusrex then grabs you and drain your life force. With nobody there to help you, you can't do anything but endure the intense pain it causes until you black out.\r\n");
         showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        setNarratives("\n\n(Delay)...\r\n");
+        setNarratives("\n\n. ");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(1);
+        TimeUnit.SECONDS.sleep(2);
+
+        setNarratives(" . ");
+        showNarratives();
+        System.out.println();
+        TimeUnit.SECONDS.sleep(2);
+
+        setNarratives(" . ");
+        showNarratives();
+        System.out.println();
+        TimeUnit.SECONDS.sleep(2);
+
+        setNarratives(" . ");
+        showNarratives();
+        System.out.println();
+        TimeUnit.SECONDS.sleep(2);
 
         setNarratives("\n\nBREAKING NEWS:\r\n");
         showNarratives();
@@ -621,7 +641,7 @@ public class Ending extends Main {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        setNarratives("\n\nReporter: Yesterday, 2 bodies were found almost unrecognized by how mutilated they are. And about 3 hours ago, it was reported that the police found the whole Johanson’s Family dead. Is there a mass murder going on? Is a serial killer on the loose?! More details are coming as we speak…\r\n");
+        setNarratives("\n\nReporter: Yesterday, 2 bodies were found almost unrecognized by how mutilated they are. And about 3 hours ago, it was reported that the police found the whole Johanson's Family dead. Is there a mass murder going on? Is a serial killer on the loose?! More details are coming as we speak…\r\n");
         showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
@@ -636,7 +656,7 @@ public class Ending extends Main {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        setNarratives("\n\nReporter: Seems there was a paper with words written on it in one of the kids bedroom! We’ll be asking the detective there to show what they’ve found\r\n");
+        setNarratives("\n\nReporter: Seems there was a paper with words written on it in one of the kids bedroom! We'll be asking the detective there to show what they've found\r\n");
         showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
@@ -654,19 +674,14 @@ public class Ending extends Main {
         setNarratives("\n\nThey all ###### deserved it\r\n");
         showNarratives();
         System.out.println();
-        TimeUnit.SECONDS.sleep(1);
+        TimeUnit.SECONDS.sleep(2);
 
-        setNarratives("\n\n(Delay.)\r\n");
+        setNarratives("\n\nDetective: We will be conducting more research on this, it seems like this is our biggest clue yet on what's happening. So it would be appreciated if you news people get out of my crimescene.\r\n");
         showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        setNarratives("\n\nDetective: We will be conducting more research on this, it seems like this is our biggest clue yet on what’s happening. So it would be appreciated if you news people get out of my crimescene.\r\n");
-        showNarratives();
-        System.out.println();
-        TimeUnit.SECONDS.sleep(1);
-
-        setNarratives("\n\nReporter: Okay thank you, I guess that’s all for today’s news folks. And also, if any of you know the whereabouts of Doctor Lee, please call the number listed down below. That is all, stay safe people!.\r\n");
+        setNarratives("\n\nReporter: Okay thank you, I guess that's all for today's news folks. And also, if any of you know the whereabouts of Doctor Lee, please call the number listed down below. That is all, stay safe people!.\r\n");
         showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
