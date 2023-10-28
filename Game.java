@@ -1185,17 +1185,17 @@ public class Game {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        mobEvent.setNarratives("\n\n" + mob.name + "3: YOU LIKE TAKING PEOPLE’S LIVES?! WE’LL TAKE YOURS INSTEAD!\r\n");
+        mobEvent.setNarratives("\n\n" + mob.name + "3: YOU LIKE TAKING PEOPLE'S LIVES?! WE'LL TAKE YOURS INSTEAD!\r\n");
         mobEvent.showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        mobEvent.setNarratives("\n\n(You see a full mob consisting of 20-30 people charging at you, you dont hesitate to start running scared as to what’ll happen if you were to get caught)\r\n");
+        mobEvent.setNarratives("\n\n(You see a full mob consisting of 20-30 people charging at you, you dont hesitate to start running scared as to what'll happen if you were to get caught)\r\n");
         mobEvent.showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        mobEvent.setNarratives("\n\n(You managed to get into an alley to hide. Confused on what to do while people are out for your blood. You can’t believe all this is happening because of something you didn’t do.)\r\n");
+        mobEvent.setNarratives("\n\n(You managed to get into an alley to hide. Confused on what to do while people are out for your blood. You can't believe all this is happening because of something you didn't do.)\r\n");
         mobEvent.showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
@@ -1211,7 +1211,7 @@ public class Game {
             clear();
 
             if (player.getChoices().equals("A")) {
-                mobEvent.setNarratives("\n\n(You hide the best you can, but it doesn’t seem like the crowd is decreasing anytime soon.. until...)\r\n");
+                mobEvent.setNarratives("\n\n(You hide the best you can, but it doesn't seem like the crowd is decreasing anytime soon.. until...)\r\n");
                 mobEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1263,7 +1263,7 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
 
-                mobEvent.setNarratives("\n\n(You sat down and take a breather, while you’re at it. You took off your clothes, messing up your hair and everything resembling you to not get recognized)\r\n");
+                mobEvent.setNarratives("\n\n(You sat down and take a breather, while you're at it. You took off your clothes, messing up your hair and everything resembling you to not get recognized)\r\n");
                 mobEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1273,7 +1273,7 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
 
-                mobEvent.setNarratives("\n\n(Though, you realized you’re resting near what looks like an abandoned cottage. So you decide to go in and rest there while waiting for the crowd to die off)\r\n");
+                mobEvent.setNarratives("\n\n(Though, you realized you're resting near what looks like an abandoned cottage. So you decide to go in and rest there while waiting for the crowd to die off)\r\n");
                 mobEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1282,7 +1282,7 @@ public class Game {
                 break;
             } else if (player.getChoices().equals("B")) {
                 // Print the messages
-                mobEvent.setNarratives("\n\n(You stood your ground. People who were charging at you stopped on their tracks confused as to why you’re just standing there)\r\n");
+                mobEvent.setNarratives("\n\n(You stood your ground. People who were charging at you stopped on their tracks confused as to why you're just standing there)\r\n");
                 mobEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1307,7 +1307,7 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
 
-                mobEvent.setNarratives("\n\n" + mob.name + "1: Ah, so sorry about that. Thought you were the killer but it seems there’s been a big misunderstanding.\r\n");
+                mobEvent.setNarratives("\n\n" + mob.name + "1: Ah, so sorry about that. Thought you were the killer but it seems there's been a big misunderstanding.\r\n");
                 mobEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1317,7 +1317,7 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
 
-                mobEvent.setNarratives("\n\n" + mob.name + "3: Maybe if you weren’t looking so different, we wouldn’t do this. It’s just the fact we saw you going out of the alley the body was in. Sorry about that!\r\n");
+                mobEvent.setNarratives("\n\n" + mob.name + "3: Maybe if you weren't looking so different, we wouldn't do this. It's just the fact we saw you going out of the alley the body was in. Sorry about that!\r\n");
                 mobEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1337,12 +1337,12 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
 
-                mobEvent.setNarratives("\n\n" + mob.name + "3: Oh yeah, if you don’t have anywhere to spend the night, there is an abandoned cottage right down the road. You can spend the night there!\r\n");
+                mobEvent.setNarratives("\n\n" + mob.name + "3: Oh yeah, if you don't have anywhere to spend the night, there is an abandoned cottage right down the road. You can spend the night there!\r\n");
                 mobEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
 
-                mobEvent.setNarratives("\n\n" + player.name + "3: Oh thank you so much for the information, i’ll go there now.\r\n");
+                mobEvent.setNarratives("\n\n" + player.name + "3: Oh thank you so much for the information, i'll go there now.\r\n");
                 mobEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1392,7 +1392,7 @@ public class Game {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        assassinEvent.setNarratives("\n\n(You look at them and they seem to be different height, with one of them being similar to someone you’ve seen)\r\n");
+        assassinEvent.setNarratives("\n\n(You look at them and they seem to be different height, with one of them being similar to someone you've seen)\r\n");
         assassinEvent.showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
@@ -1437,7 +1437,7 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
 
-                assassinEvent.setNarratives("\n\n(You fall down on the ground near the knife that was thrown, it seems they’ve injured your leg by sheer precision of their knives throws)\r\n\n");
+                assassinEvent.setNarratives("\n\n(You fall down on the ground near the knife that was thrown, it seems they've injured your leg by sheer precision of their knives throws)\r\n\n");
                 assassinEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1449,7 +1449,7 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
 
-                assassinEvent.setNarratives("\n\n(You fall down on the ground near the knife, it seems they’ve injured your leg badly.)\r\n\n");
+                assassinEvent.setNarratives("\n\n(You fall down on the ground near the knife, it seems they've injured your leg badly.)\r\n\n");
                 assassinEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1462,19 +1462,19 @@ public class Game {
         scanner.nextLine();
         clear();
 
-        assassinEvent.setNarratives("\n\n(Assassin#1 then pull off their mask, It’s james. You can’t believe it, someone you thought was your friend is now actively trying to kill you. But you noticed something..)\r\n");
+        assassinEvent.setNarratives("\n\n(Assassin#1 then pull off their mask, It's james. You can't believe it, someone you thought was your friend is now actively trying to kill you. But you noticed something..)\r\n");
         assassinEvent.showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
         
-        assassinEvent.setNarratives("\n\n(James’s face isn't normal. It’s much more.. emotionless.)\r\n");
+        assassinEvent.setNarratives("\n\n(James's face isn't normal. It's much more.. emotionless.)\r\n");
         assassinEvent.showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
         
         assassins.name="James the Assassin";
 
-        assassinEvent.setNarratives("\n\n"+assassins.name+": You shouldn’t have done that. Now die.\r\n");
+        assassinEvent.setNarratives("\n\n"+assassins.name+": You shouldn't have done that. Now die.\r\n");
         assassinEvent.showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
@@ -1499,7 +1499,7 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
                 
-                assassinEvent.setNarratives("\n\n(Assassin#2: then dashes towards you to try and avenge their partner’s death)\r\n");
+                assassinEvent.setNarratives("\n\n(Assassin#2: then dashes towards you to try and avenge their partner's death)\r\n");
                 assassinEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1509,7 +1509,7 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
 
-                assassinEvent.setNarratives("\n\n(But somehow, you came out on top. You got up to see 2 dead bodies beside you.. but it somehow doesn’t phase you that much..)\r\n");
+                assassinEvent.setNarratives("\n\n(But somehow, you came out on top. You got up to see 2 dead bodies beside you.. but it somehow doesn't phase you that much..)\r\n");
                 assassinEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1522,7 +1522,7 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
 
-                assassinEvent.setNarratives("\n\n(And suddenly you hear a ring from James’s pocket)\r\n");
+                assassinEvent.setNarratives("\n\n(And suddenly you hear a ring from James's pocket)\r\n");
                 assassinEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1532,7 +1532,7 @@ public class Game {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
 
-                assassinEvent.setNarratives("\n\n(You wonder, why didn’t he go for something vital instead?)\r\n");
+                assassinEvent.setNarratives("\n\n(You wonder, why didn't he go for something vital instead?)\r\n");
                 assassinEvent.showNarratives();
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
@@ -1562,7 +1562,7 @@ public class Game {
                         System.out.println();
                         TimeUnit.SECONDS.sleep(1);
                         
-                        assassinEvent.setNarratives("\n\n(Assassin#2 then dashes towards you to try and avenge their partner’s death)\r\n");
+                        assassinEvent.setNarratives("\n\n(Assassin#2 then dashes towards you to try and avenge their partner's death)\r\n");
                         assassinEvent.showNarratives();
                         System.out.println();
                         TimeUnit.SECONDS.sleep(1);
@@ -1572,7 +1572,7 @@ public class Game {
                         System.out.println();
                         TimeUnit.SECONDS.sleep(1);
 
-                        assassinEvent.setNarratives("\n\n(But somehow, you came out on top. You got up to see 2 dead bodies beside you.. but it somehow doesn’t phase you that much..)\r\n");
+                        assassinEvent.setNarratives("\n\n(But somehow, you came out on top. You got up to see 2 dead bodies beside you.. but it somehow doesn't phase you that much..)\r\n");
                         assassinEvent.showNarratives();
                         System.out.println();
                         TimeUnit.SECONDS.sleep(1);
@@ -1586,7 +1586,7 @@ public class Game {
                         System.out.println();
                         TimeUnit.SECONDS.sleep(1);
 
-                        assassinEvent.setNarratives("\n\n(The ring from james’s pocket rang louder.)\r\n");
+                        assassinEvent.setNarratives("\n\n(The ring from james's pocket rang louder.)\r\n");
                         assassinEvent.showNarratives();
                         System.out.println();
                         TimeUnit.SECONDS.sleep(1);
@@ -1616,7 +1616,7 @@ public class Game {
                         System.out.println();
                         TimeUnit.SECONDS.sleep(1);
 
-                        assassinEvent.setNarratives("\n\n(Seems like he’s back to normal, well. Other than the knife in your shoulder.)\r\n");
+                        assassinEvent.setNarratives("\n\n(Seems like he's back to normal, well. Other than the knife in your shoulder.)\r\n");
                         assassinEvent.showNarratives();
                         System.out.println();
                         TimeUnit.SECONDS.sleep(1);
@@ -1635,12 +1635,12 @@ public class Game {
                         scanner.nextLine();
                         clear();
 
-                        assassinEvent.setNarratives("\n\n"+assassins.name+": #2! He’s not the enemy! i was controlled!\r\n");
+                        assassinEvent.setNarratives("\n\n"+assassins.name+": #2! He's not the enemy! i was controlled!\r\n");
                         assassinEvent.showNarratives();
                         System.out.println();
                         TimeUnit.SECONDS.sleep(1);
 
-                        assassinEvent.setNarratives("\n\nAssassin#2: What do you mean you’re controlled?!\r\n");
+                        assassinEvent.setNarratives("\n\nAssassin#2: What do you mean you're controlled?!\r\n");
                         assassinEvent.showNarratives();
                         System.out.println();
                         TimeUnit.SECONDS.sleep(1);
@@ -1668,7 +1668,7 @@ public class Game {
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        ENDEvent.setNarratives("\n\n(Explosions can be heard. Then the cottage’s roof suddenly get destroyed, revealing an abomination beyond anyone’s comprehension)\r\n");
+        ENDEvent.setNarratives("\n\n(Explosions can be heard. Then the cottage's roof suddenly get destroyed, revealing an abomination beyond anyone's comprehension)\r\n");
         ENDEvent.showNarratives();
         System.out.println();
         TimeUnit.SECONDS.sleep(1);
